@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CSS Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* Corrected selector for box-sizing */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 1000px;
+      margin: 0;
+      background-color: #ADD8E6;
+      font-family: sans-serif;
+    }
+    
+    .sidenav {
+      height: 100%;
+      width: 150px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #0066CC;
+      overflow-x: hidden;
+    }
+
+    .sidenav a {
+      font-family: sans-serif;
+      color: white;
+      padding: 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .sidenav a:hover {
+      font-family: sans-serif;
+      background-color: #ADD8E6;
+      color: black;
+    }
+
+    .content {
+      font-family: Georgia;
+      margin-left: 150px;
+      padding-left: 20px;
+    }
+
+    .img {
+      position: absolute;
+      left: 1100px;
+      top: 100px;
+    }
+    
+    .img2 {
+      position: absolute;
+      left: 1100px;
+      top: 600px;
+    }
+     p.b {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidenav">
+  
+    <a href="index.html">Main Page</a>
+    <a href="#">Images</a>
+    <a href="civicsources.html">Sources</a>
+  </div>
+
+  <div class="img">
+    <img src="civ3.jpg" style="width:500px">
+  </div>
+  
+</body>
+</html>
